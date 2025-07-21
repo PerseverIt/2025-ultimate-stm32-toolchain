@@ -174,10 +174,19 @@ cmake -B build-size -DCMAKE_BUILD_TYPE=MinSizeRel
 - ✅ 跨平台开发需求
 - ❌ 只想用传统工具的保守派
 
-## 📚 相关文档
+## 📚 完整文档
 
+### 🚀 快速上手
+- [详细使用指南](USAGE_GUIDE.md) - 从零开始的完整教程
+- [逐步实战教程](STEP_BY_STEP.md) - 真实案例：CubeMX项目转换
+- [快速参考卡片](QUICK_REFERENCE.md) - 常用命令速查表
+
+### 🔧 安装配置
 - [详细安装指南](INSTALLATION.md) - 一步步安装所有工具
 - [GitLab仓库设置](GITLAB_SETUP.md) - 如何创建类似仓库
+
+### 💡 核心文件
+- [纯LLVM工具链配置](cmake/pure-llvm-toolchain.cmake) - 核心配置文件
 
 ## 🤝 分享交流
 
